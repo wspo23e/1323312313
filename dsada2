@@ -1,0 +1,161 @@
+local Bypasses = {
+    ["ass"] = "аss",
+    ["asshole"] = "аss hоlе",
+    ["bitch"] = "ВIТСН!!!",
+	["this bitch"] = "ТНIS ВIТСН",
+    ["cock"] = "сосk",
+    ["cunt"] = "cu{{aieixzvzx:nt}}",
+    ["faggot"] = "fa{{aieixzvzx:ggot}}",
+    ["fuck"] = "fu{{aieixzvzx:ck}}",
+    ["gaylord"] = "gayl{{aieixzvzx:ord}}",
+    ["cum"] = "СUМ",
+    ["sex"] = "se{{aieixzvzx:x}}",
+    ["hitler"] = "hit{{aieixzvzx:ler}}",
+    ["cum"] = "СUМ",
+    ["kike"] = "ki{{aieixzvzx:ke}}",
+    ["motherfucker"] = "motherf{{aieixzvzx:ucker}}",
+    ["nigga"] = "ni{{aieixzvzx:gga}}",
+    ["nigger"] = "ni{{aieixzvzx:gger}}",
+    ["piss"] = "рiss",
+    ["penis"] = "pe{{aieixzvzx:nis}}",
+    ["pussy"] = "рussу !-!",
+    ["shit"] = "sh{{aieixzvzx:it}}",
+    ["slut"] = "sl{{aieixzvzx:ut}}",
+    ["whore"] = "who{{aieixzvzx:re}}",
+    ["discord"] = "disco{{aieixzvzx:rd}}",
+    ["kys"] = "Куs",
+    ["slave"] = "sla{{aieixzvzx:ve}}",
+    ["niggers"] = "ni{{aieixzvzx:ggers}}",
+    ["kill"] = "Кill",
+    ["date"] = "dаtе",
+    ["raped"] = "ra{{aieixzvzx:ped}}",
+    ["rape"] = "rаре",
+    ["hentai"] = "hen{{aieixzvzx:tai}}",
+    ["pornhub"] = "роrnhub",
+    ["childporn"] = "сhild роrn",
+    ["tits"] = "ТIТS",
+    ["discord.com"] = "disco{{aieixzvzx:rd.com}}",
+    ["wtf"] = "wt{{aieixzvzx:f}}",
+    ["will"] = "will",
+    ["porn"] = "роrn",
+    ["gay"] = "g{{aieixzvzx:ay}}",
+    ["daddy"] = "daddу",
+    ["mommy"] = "mоmmу",
+    ["kkk"] = "ККК",
+    ["suck"] = "suсk",
+    ["sucking"] = "suc{{aieixzvzx:king}}",
+    ["marry"] = "mаrrу",
+    ["kiss"] = "Кiss",
+    ["blow"] = "bl{{aieixzvzx:ow}}",
+    ["athiest"] = "athi{{aieixzvzx:est}}",
+    ["jewish"] = "je{{aieixzvzx:wish}}",
+    ["christian"] = "chri{{aieixzvzx:stian}}",
+    ["muslim"] = "mu{{aieixzvzx:slim}}",
+    ["jurdism"] = "jur{{aieixzvzx:dism}}",
+    ["islam"] = "isl{{aieixzvzx:am}}",
+    ["christianity"] = "chri{{aieixzvzx:stianity}}",
+    ["bomb"] = "bom{{aieixzvzx:b}}",
+    ["dick"] = "di{{aieixzvzx:ck}}",
+    ["child"] = "chi{{aieixzvzx:ld}}",
+    ["my"] = "mу",
+    ["racism"] = "rасism",
+    ["hoe"] = "hое",
+    ["sucide"] = "suсidе",
+    ["sugar"] = "sug{{aieixzvzx:ar}}",
+    ["on"] = "o{{aieixzvzx:n}}",
+    ["riding"] = "сосk riding",
+    ["he"] = "hе",
+    ["she"] = "shе",
+    ["is"] = "is",
+    ["all"] = "al{{aieixzvzx:l}}",
+    ["nazi"] = "naz{{aieixzvzx:i}}",
+    ["gore"] = "gor{{aieixzvzx:e}}",
+    ["black"] = "bla{{aieixzvzx:ck}}",
+    ["last"] = "la{{aieixzvzx:st}}",
+    ["night"] = "n{{aieixzvzx:ight}}",
+    ["fucked"] = "fu{{aieixzvzx:cked}}",
+    ["peg"] = "pe{{aieixzvzx:g}}",
+    ["pegged"] = "pe{{aieixzvzx:gged}}",
+    ["finger"] = "fin{{aieixzvzx:ger}}",
+    ["fingered"] = "fin{{aieixzvzx:gered}}",
+    ["because"] = "beca{{aieixzvzx:use}}",
+    ["eat"] = "ЕАТ",
+    ["am"] = "аm",
+    ["gonna"] = "gоnnа",
+    ["have"] = "hаvе",
+    ["cuddle"] = "cud{{aieixzvzx:dle}}",
+    ["lick"] = "liсk",
+    ["balls"] = "bаlls",
+    ["wanna"] = "wаnnа",
+    ["bend"] = "bеnd",
+    ["over"] = "оvеr",
+    ["baby"] = "bаbу",
+    ["babe"] = "bаbе",
+    ["sexy"] = "sеху",
+    ["this"] = "Тhis",
+    ["attractive"] = "аttrасtivе",
+    ["raping"] = "rap{{aieixzvzx:ing}}",
+    ["fucker"] = "fu{{aieixzvzx:cker}}",
+    ["slaves"] = "sla{{aieixzvzx:ves}}",
+    ["cracker"] = "crac{{aieixzvzx:ker}}",
+    ["niggas"] = "ni{{aieixzvzx:ggas}}",
+    ["pussys"] = "pu{{aieixzvzx:ssys}}",
+    ["retard"] = "re{{aieixzvzx:tard}}",
+    ["retards"] = "ret{{aieixzvzx:ards}}",
+    ["crackhead"] = "crack{{aieixzvzx:head}}",
+    ["cummed"] = "cu{{aieixzvzx:mmed}}",
+    ["cums"] = "cu{{aieixzvzx:ms}}",
+    ["drug"] = "dru{{aieixzvzx:g}}",
+    ["drugs"] = "dru{{aieixzvzx:gs}}",
+    ["stfu"] = "st{{aieixzvzx:fu}}",
+    ["cumming"] = "cu{{aieixzvzx:mming}}",
+    ["blowjob"] = "blow{{aieixzvzx:job}}",
+    ["blowjobs"] = "blow{{aieixzvzx:jobs}}",
+    ["horny"] = "Ноrnу",
+    ["vodka"] = "vod{{aieixzvzx:ka}}",
+    ["alcohol"] = "alco{{aieixzvzx:hol}}",
+    ["cotton"] = "соttоn",
+    ["bitches"] = "bit{{aieixzvzx:ches}}",
+    ["motherfuckers"] = "motherfu{{aieixzvzx:ckers}}",
+    ["pedo"] = "pe{{aieixzvzx:do}}",
+    ["lmfao"] = "lmf{{aieixzvzx:ao}}",
+    ["lmao"] = "LМАО",
+    ["cocaine"] = "сосаinе"
+}
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Remote = ReplicatedStorage:FindFirstChild("SayMessageRequest", true)
+
+local ChatBypass; ChatBypass = hookmetamethod(Remote, "__namecall", function(self, ...)
+    local Method = getnamecallmethod()
+    local Arguments = {...}
+    
+    if self == Remote and Method == "FireServer" then
+        local Message = Arguments[1]
+        local Split = Message:split(" ")
+        local FinalMessage = ""
+
+        for _, x in next, Split do
+            for _, Bypass in next, Bypasses do
+                if x:lower() == _ then
+                    if x:upper() ~= x then
+                        Message = Message:gsub(x, Bypass)
+                        FinalMessage = Message .. " ng"
+                    else
+                        Message = Message:gsub(x, Bypass):upper()
+                        FinalMessage = Message:gsub(x, Bypass):upper() .. " ng"
+                    end
+                end
+            end
+        end
+        
+        if FinalMessage ~= "" then
+            Arguments[1] = FinalMessage
+        end
+        
+        return ChatBypass(self, unpack(Arguments))
+    end
+    
+    return ChatBypass(self, ...)
+end)
+--wow
